@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daram Siddhartha  | PORTFOLIO</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="portstyle.css">
+</head>
+
+<body>
+
+<header>
+    <img src="port2.jpeg
+    " class="dp">
+    <div>
+        <h1>Daram Siddhartha</h1>
+        <p class="tag">B-Tech First Year Student  | Web Developer</p>
+        <p class="sub">Learning Programming Langauges</p>
+    </div>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#education">Education</a>
+    <a href="#interpersonalskills">InterPersonal Skills</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="about" class="card">
+    <h2>About Myself</h2>
+    <p>I am a B.Tech CSE student studying in KLH University.</p>
+</section>
+
+<section id="skills" class="card">
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Java</li>
+        <li>Python</li>
+        <li>SQL</li>
+        <li>C</li>
+        <li>STREAMLIT</li>
+        <li>POSTMAN</li>
+        <li>Kaggle</LI>
+        <li>Visual Studio</li>
+    </ul>
+</section>
+
+<section id="projects" class="card">
+    <h2>Projects</h2>
+    <ul>
+        <li><b>Restaurant Menu</b></li>
+        <li><b>Building a movie booking website which is user functional</b></li>
+        <li><b>Projects in FreeCodeCamp</li>
+        <li><b>Portfolio Website</b> – Personal profile using HTML & CSS</li>
+    </ul>
+</section>
+
+<section id="education" class="card">
+    <h2>Education</h2>
+    <p><b>B.Tech Computer Science</b><br> KLH University | 2025 – 2029</p>
+</section>
+
+<section id="interpersonalskills" class="card">
+    <h2>InterPersonal-Skills</h2>
+    <ul>
+        <li>Cricket Player(Played for Telangana, Rangareddy District, HCA U-16, V-SPORTS,DANIEL'S)</li>
+        <li>Kho-Kho Player(Played for Rangareddy District, DPS, BBS)</li>
+        <li>Cooking</li>
+        <li>E-Sports(Ranked below 500 in CODM Worldwide)</li>
+        <li>Studied Full Stack Development in MedhaEduTech</li>
+        <li>Working as a web designer in SixthWheelInnovations</li>
+        <li>Flirting with girls.(100% works)</li>
+    </ul>
+
+</section>
+<section id="contact" class="card">
+    <h2>Contact Details</h2>
+    <p>Email: daram.siddhartha@klh.edu.in</p>
+    <p>GitHub: https://github.com/Siddhartha2507</p>ṇ
+</section>
+
+<footer>
+    © 2026 Daram Siddhartha| Portfolio
+</footer>
+
+</body>
+</html>
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background: linear-gradient(135deg, #eef2ff, #e0f7fa);
+    padding: 25px;
+    color: #333;
+}
+header {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.dp {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 5px solid #161e02;
+}
+
+h1 {
+    color: #19191e;
+}
+
+.tag {
+    font-weight: 400;
+}
+
+.sub {
+    font-size: 14px;
+    color: gray;
+}
+
+nav {
+    background: #17162e;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}   
+.card {
+    background: white;
+    padding: 18px;
+    margin: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+.card h2 {
+    margin-bottom: 10px;
+    color: #b4b3c6;
+}
+
+ul {
+    padding-left: 20px;
+}
+footer {
+    text-align: center;
+    margin-top: 20px;
+    background: #0eb8de;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 10px;
+}
